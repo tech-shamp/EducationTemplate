@@ -1,0 +1,30 @@
+/* FONT FACE RULE */
+@font-face {
+  font-family: "Heavy";
+  src: url("fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: "Regular";
+  src: url("fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Light";
+  src: url("fonts/Raleway-Thin.ttf");
+}
+
+/* Root */
+:root {
+  --color: #61b752;
+  --failed: #d33232;
+}
+
+/* StyleSheet */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Regular";
+}
+html {
+  font-size: 80%;
+}
